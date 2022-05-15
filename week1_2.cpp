@@ -1,11 +1,10 @@
 /*
 //	选出数组里面的最大值和最小值。
-
+	@author: tianyb
+	date: 2022-5-12
 */
 #include <stdio.h>
-
 void minmax(int a[], int len, int *max, int *min);
-
 int main() {
 	int a[] = {1, 2, 3, 4, 5, 6, 55,88, 0, -1, -100, 100};
 	int min, max;
