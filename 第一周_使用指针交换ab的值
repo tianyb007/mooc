@@ -1,0 +1,21 @@
+/*
+  @author: tianyb
+  date: 2022-05-14
+*/
+//交换a, b的值
+#include <stdio.h>
+void swarp(int *pa, int *pb);
+
+int main () {
+	int a = 5, b = 6;
+	swarp(&a, &b);
+	printf("a = %d, b = %d\n", a, b);
+	
+	return 0;
+}
+
+void swarp(int *pa, int *pb) {
+	int t = *pa;
+	*pa = *pb;
+	*pb = t;
+}
